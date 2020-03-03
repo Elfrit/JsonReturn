@@ -1,0 +1,8 @@
+exports.endpoint = function(request, response) {
+    
+    response.end(JSON.stringify({"properties": "always",
+                                 "properties": "never", 
+                                 "ignoreDestructuring": false, 
+                                 "ignoreDestructuring": true,
+                                 "ignoreImports": false}));
+}
